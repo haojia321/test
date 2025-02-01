@@ -19,32 +19,69 @@
 				<div class="logo size-24 items-center">
 					<img src="images/mm-5.png" />
 				</div>
-				<ul class="menu-main flex items-center justify-end space-x-4 cursor-pointer">
+				<ul class="menu-main flex items-center justify-end space-x-4 cursor-pointer invisible md:visible">
 					<li>Home</li>
 					<li><a>About Us</a></li>
 					<li><a>Mission</a></li>
 					<li><a>Donate</a></li>
 					<li><a>Contact</a></li>
 				</ul>
+				<button data-drawer-target="default-sidebar" data-drawer-toggle="default-sidebar" aria-controls="default-sidebar" type="button" class="inline-flex items-center p-2 mt-2 ms-3 text-sm rounded-lg md:hidden">
+				   <span class="sr-only">Open sidebar</span>
+				   <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+				   <path clip-rule="evenodd" fill-rule="evenodd" d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z"></path>
+				   </svg>
+				</button>
 			</div>
 		</div>
-	</header>
+	</header>	
+	<aside id="default-sidebar" class="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0 md:hidden" aria-label="Sidebar">
+	   <div class="h-full px-3 py-4 overflow-y-auto text-gray-950 bg-slate-50">
+		  <ul class="space-y-2 font-medium">
+			 <li>
+				<a href="#" class="flex items-center p-2 text-gray-900 rounded-lg group">
+				   <span class="ms-3">Home</span>
+				</a>
+			 </li>
+			 <li>
+				<a href="#" class="flex items-center p-2 text-gray-900 rounded-lg group">
+				   <span class="ms-3">About Us</span>
+				</a>
+			 </li>
+			 <li>
+				<a href="#" class="flex items-center p-2 text-gray-900 rounded-lg group">
+				   <span class="ms-3">Mission</span>
+				</a>
+			 </li>
+			 <li>
+				<a href="#" class="flex items-center p-2 text-gray-900 rounded-lg group">
+				   <span class="ms-3">Donate</span>
+				</a>
+			 </li>
+			 <li>
+				<a href="#" class="flex items-center p-2 text-gray-900 rounded-lg group">
+				   <span class="ms-3">Contact</span>
+				</a>
+			 </li>
+		  </ul>
+	   </div>
+	</aside>
 	<main>
 		<section class="billboard">
 			<header class="max-w-7xl mx-auto text-center flex flex-col justify-center">
-				<div class="mt-40 mb-20">
-					<h1 class="text-6xl font-semibold">Welcome to Music Miracles</h1>
+				<div class="mt-10 md:mt-40 mb-5 md:mb-20">
+					<h1 class="text-3xl md:text-6xl font-semibold">Welcome to Music Miracles</h1>
 				</div>
 				<div class="thd-body-lg thd-max-3xl text-gray-600">
 					<p class="mx-auto max-w-250">We are dedicated to enriching the lives of aspiring young musicians through our program, where members of our organization mentor and teach musical instruments. By performing music concerts in the community, senior living centers, and hospitals, we aim to spread joy and happiness, fostering a sense of connection and well-being. If you are interested in donating to support children’s performances and activities, we would greatly appreciate your contribution.</p>
 				</div>
 				<div class="">
-					<button class="bg-red-700 text-white w-24 h-10 my-10 cursor-pointer">Donate</button>
+					<button class="bg-red-700 text-white w-24 h-10 my-5 md:my-10 cursor-pointer">Donate</button>
 				</div>
 			</header>
 			<!--<img class=" max-w-7xl mx-auto" src="images/mm-5-transparent.png" /> -->
 		</section>
-		<section class="gallery py-30">
+		<section class="gallery py-6 md:py-30">
 			<div class="">
 				<div class="mx-auto grid max-w-7xl gap-20 px-6 lg:px-8 xl:grid-cols-3">
 					<div class="max-w-xl pb-5">
@@ -92,7 +129,7 @@
 			</div>
 		</section>
 		<section class="stats bg-yellow-300">
-			<div class="py-24 sm:py-32">
+			<div class="py-10 md:py-32">
 			  <div class="mx-auto max-w-7xl px-6 lg:px-8">
 				<dl class="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-3">
 				  <div class="mx-auto flex max-w-xs flex-col gap-y-4">
@@ -112,7 +149,7 @@
 			</div>
 		</section>
 		<section class="team">
-			<div class="py-24 sm:py-32">
+			<div class="py-10 md:py-32">
 			  <div class="mx-auto grid max-w-7xl gap-20 px-6 lg:px-8 xl:grid-cols-3">
 				<div class="max-w-xl">
 				  <h2 class="text-3xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-4xl">Meet our team</h2>
