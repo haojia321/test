@@ -1,4 +1,5 @@
 const photos = [
+  { photo: "/images/gallery/04062025/IMG_3377.jpg" },
   { photo: "/images/gallery/04062025/IMG_3322.jpg" },
   { photo: "/images/gallery/04062025/IMG_3329.jpg" },
   { photo: "/images/gallery/04062025/IMG_3331.jpg" },
@@ -14,7 +15,6 @@ const photos = [
   { photo: "/images/gallery/04062025/IMG_3367.jpg" },
   { photo: "/images/gallery/04062025/IMG_3371.jpg" },
   { photo: "/images/gallery/04062025/IMG_3372.jpg" },
-  { photo: "/images/gallery/04062025/IMG_3377.jpg" },
   { photo: "/images/gallery/04052025/22fccc76ebfdf97fc7cf77e568b7ab84.jpg" },
   { photo: "/images/gallery/04052025/group.jpeg" },
   { photo: "/images/gallery/04052025/IMG_3272.jpeg" },
