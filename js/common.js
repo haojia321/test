@@ -41,21 +41,23 @@ const initPosts = (count) => {
 };
 
 addLoadEvent(() => {
-	if (window.document.domain === "") {
-		const links = document.querySelectorAll("a[href]");
-		links.forEach(link => {
-		  const href = link.getAttribute("href");
-		  if (!href.startsWith(localRoot)) {
-			link.setAttribute("href", localRoot + href);
-		  }
-		});
-		
-		const images = document.querySelectorAll("img[src]");
-		images.forEach(img => {
-		  const src = img.getAttribute("src");
-		  if (!src.startsWith(localRoot)) {
-			img.setAttribute("src", localRoot + src);
-		  }
-		});
-	}
+	setTimeout(()=> {
+		if (window.document.domain === "") {
+			const links = document.querySelectorAll("a[href]");
+			links.forEach(link => {
+			  const href = link.getAttribute("href");
+			  if (!href.startsWith(localRoot)) {
+				link.setAttribute("href", localRoot + href);
+			  }
+			});
+			
+			const images = document.querySelectorAll("img[src]");
+			images.forEach(img => {
+			  const src = img.getAttribute("src");
+			  if (!src.startsWith(localRoot)) {
+				img.setAttribute("src", localRoot + src);
+			  }
+			});
+		}
+	}, 500);
 });

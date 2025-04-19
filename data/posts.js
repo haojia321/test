@@ -1,17 +1,15 @@
 const posts = [
-	/*{
+	{
 		version: "v2",
-		title: "A Time of Surprises and Talents",
-		dateLabel: "Mar 22, 2025",
-		author: "Anne Tang",
-		cover: "/images/gallery/03222025/18.jpg",
-		postPath: "/js/data/posts/test.js",
-		description: `The Music Miracles Concert on March 22 had much more variety
-than our other concerts. This time, we had two sing-alongs: Ryan and
-Shannon, plus Me, Michelle, and Yuxin. We also had a Guzheng
-performance played by Erica Zheng, a new piano duet from Yuxin and
-Jason and a new separate vocal sang by Aiden.`
-	},*/
+		title: "Harmony for the Heart: A Music Miracles Concert",
+		dateLabel: "April 05, 2025",
+		author: "Yuxin Jia and Jason Jia",
+		cover: "/images/gallery/04052025/IMG_3298.jpeg",
+		postPath: "/data/posts/04052025.js",
+		description: `The Music Miracles concert was a wonderful chance for performers of all ages to share their passion 
+		for music through piano, violin, and singing at a senior community center. This program was to perform to the seniors 
+		to bring them joy and peace`
+	},
 	{
 		title: "A Time of Surprises and Talents",
 		dateLabel: "Mar 22, 2025",
