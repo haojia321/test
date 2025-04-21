@@ -26,7 +26,7 @@ const photos = [
   { photo: "/images/gallery/04192025g/5d160cda291ad90dd25ec06b595324aa.jpeg" },
   { photo: "/images/gallery/04192025g/7acf8928f251d88ae8c60e6e14e36ded.jpeg" },
   { photo: "/images/gallery/04192025g/8a503e6adde1e3ace27570a8b1c32d63.jpeg" },
-  { photo: "/images/gallery/04192025g/ff2a5cebcd48a9f7af94521ec5c2c33.jpeg" },
+  { photo: "/images/gallery/04192025g/ff2a5cebcdd48a9f7af94521ec5c2c33.jpeg" },
   { photo: "/images/gallery/04192025g/IMG_3599.jpeg" },
   { photo: "/images/gallery/04192025g/IMG_3601.jpeg" },
   { photo: "/images/gallery/04192025g/IMG_3602.jpeg" },
