@@ -1,6 +1,16 @@
 const posts = [
 	{
 		version: "v2",
+		title: "Beautifying Nature: Our Visit to Meadowlark Botanical Gardens",
+		dateLabel: "April 19, 2025",
+		author: "Yuxin Jia and Jason Jia",
+		cover: "/images/gallery/04192025g/IMG_3727.jpeg",
+		postPath: "/data/posts/04192025.js",
+		description: `Our visit to Meadowlark Botanical Gardens was not only a fun outing but also a meaningful way to help the environment. 
+		We spent the day picking up trash and removing sticks and branches that could interfere with mowing the grass. Everyone had a great time working together in the fresh air!`
+	},
+	{
+		version: "v2",
 		title: "Harmony for the Heart: A Music Miracles Concert",
 		dateLabel: "April 05, 2025",
 		author: "Yuxin Jia and Jason Jia",
