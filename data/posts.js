@@ -1,7 +1,7 @@
 const posts = [
 	{
 		version: "v2",
-		title: "Visit to Brightview Great Falls",
+		title: "Visit to Waltonwood at Ashburn",
 		dateLabel: "July 26, 2025",
 		author: "Yuxin Jia and Jason Jia",
 		cover: "/images/gallery/07262025/IMG_5471.jpeg",
