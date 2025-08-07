@@ -1,6 +1,24 @@
 const posts = [
 	{
 		version: "v2",
+		title: "Visit to Brightview Great Falls",
+		dateLabel: "July 26, 2025",
+		author: "Yuxin Jia and Jason Jia",
+		cover: "/images/gallery/07262025/IMG_5471.jpeg",
+		postPath: "/data/posts/07262025.js",
+		description: `Moments from our visit to Waltonwood at Ashburn`
+	},
+	{
+		version: "v2",
+		title: "Visit to Brightview Great Falls",
+		dateLabel: "July 19, 2025",
+		author: "Yuxin Jia and Jason Jia",
+		cover: "/images/gallery/07192025/IMG_5351.jpeg",
+		postPath: "/data/posts/07192025.js",
+		description: `Highlights from our visit to Brightview Great Falls`
+	},
+	{
+		version: "v2",
 		title: "Beautifying Nature: Our Visit to Meadowlark Botanical Gardens",
 		dateLabel: "April 19, 2025",
 		author: "Yuxin Jia and Jason Jia",

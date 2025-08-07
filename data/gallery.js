@@ -1,4 +1,6 @@
 const photos = [
+  { photo: "/images/gallery/07262025/IMG_5471.jpeg" },
+  { photo: "/images/gallery/07192025/IMG_5351.jpeg" },
   { "photo": "/images/gallery/05312025/IMG_4288.jpeg" },
   { "photo": "/images/gallery/05312025/IMG_4289.jpeg" },
   { "photo": "/images/gallery/05312025/IMG_4292.jpeg" },
