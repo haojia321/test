@@ -1,6 +1,26 @@
 const posts = [
 	{
 		version: "v2",
+		title: "Music Miracles Helps Me with Stage Fright",
+		dateLabel: "August 16, 2025",
+		author: "Sonja Wilson",
+		cover: "/images/gallery/08162025/IMG_5842.jpeg",
+		postPath: "/data/posts/08162025.js",
+		description: `Each performance makes me better and more confident. Now, I look forward to our concerts because I can play with my friends 
+		and share music.`
+	},
+	{
+		version: "v2",
+		title: "I Love Music Miracles",
+		dateLabel: "August 02, 2025",
+		author: "Sonja Wilson",
+		cover: "/images/gallery/08022025/IMG_5598.jpeg",
+		postPath: "/data/posts/08022025.js",
+		description: `Hi, my name is Sonja, and I’m going to tell you about Music Miracles!  It gathers children who would like to play instruments, 
+		sing, or dance for the seniors that live in the senior center.`
+	},
+	{
+		version: "v2",
 		title: "Visit to Waltonwood at Ashburn",
 		dateLabel: "July 26, 2025",
 		author: "Yuxin Jia and Jason Jia",

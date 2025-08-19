@@ -1,4 +1,4 @@
-const localRoot = "D:/Hao/test";
+const localRoot = "/Users/haojia/Documents/GitHub/test"; // modify with your local repo path.
 
 const addLoadEvent = (func) => { 
   var oldonload = window.onload; 
