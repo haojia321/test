@@ -1,20 +1,40 @@
 const posts = [
 	{
 		version: "v2",
+		title: "Music Miracles: So Much Fun!",
+		dateLabel: "August 16, 2025",
+		author: "Ethan Zhang",
+		cover: "/images/gallery/08162025/IMG_5842.jpeg",
+		postPath: "/data/posts/08162025b.js",
+		description: `I'm still so excited to tell you all about the Music Miracles concert!  It was a great day, and I loved watching all the amazing 
+		performances with piano, violin, singing, and even dancing! It made my heart feel so happy.`
+	},
+	{
+		version: "v2",
 		title: "Music Miracles Helps Me with Stage Fright",
 		dateLabel: "August 16, 2025",
 		author: "Sonja Wilson",
-		cover: "/images/gallery/08162025/IMG_5842.jpeg",
+		cover: "/images/gallery/08022025/IMG_5531.jpeg",
 		postPath: "/data/posts/08162025.js",
 		description: `Each performance makes me better and more confident. Now, I look forward to our concerts because I can play with my friends 
 		and share music.`
 	},
 	{
 		version: "v2",
+		title: "A Day Full of Music and Friends!",
+		dateLabel: "August 2, 2025",
+		author: "Ethan Zhang",
+		cover: "/images/gallery/08022025/IMG_5598.jpeg",
+		postPath: "/data/posts/08022025b.js",
+		description: `It was such a great day, and I was so happy to see all my friends and family there. I felt so happy and thankful for the chance 
+		to play music. I hope everyone had a wonderful time!`
+	},
+	{
+		version: "v2",
 		title: "I Love Music Miracles",
 		dateLabel: "August 02, 2025",
 		author: "Sonja Wilson",
-		cover: "/images/gallery/08022025/IMG_5598.jpeg",
+		cover: "/images/gallery/08022025/IMG_5549.jpeg",
 		postPath: "/data/posts/08022025.js",
 		description: `Hi, my name is Sonja, and I’m going to tell you about Music Miracles!  It gathers children who would like to play instruments, 
 		sing, or dance for the seniors that live in the senior center.`
